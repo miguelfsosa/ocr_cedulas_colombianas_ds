@@ -1,0 +1,57 @@
+# Fotos e imágenes de documentos (datos sensibles - NO subir)
+data/kyc/muestras/*.jpg
+data/kyc/muestras/*.jpeg
+data/kyc/muestras/*.png
+data/kyc/resultados/*.jpg
+data/kyc/resultados/*.jpeg
+data/kyc/resultados/*.png
+
+# Resultados JSON (pueden contener datos personales)
+data/kyc/resultados/*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Entornos virtuales
+venv/
+env/
+.env
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Modelos entrenados (archivos grandes)
+models/
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# PDFs de lecturas (copyright)
+lecturas/*.pdf
+lecturas/*.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/

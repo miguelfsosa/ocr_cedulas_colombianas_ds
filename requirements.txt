@@ -1,0 +1,24 @@
+# Deep Learning Banking - Dependencias del Proyecto
+
+# Lectura y procesamiento de PDFs
+pymupdf>=1.24.0
+
+# OCR para extracción de texto de imágenes
+easyocr>=1.7.0
+
+# Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Visión por computadora (preprocesamiento de imágenes)
+opencv-python>=4.8.0
+Pillow>=10.0.0
+
+# Jupyter y exploración
+jupyter>=1.0.0
+notebook>=7.0.0
+
+# Utilidades generales
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
